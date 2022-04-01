@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/number-uint16-base",
+  "version": "0.0.0",
+  "description": "Base utilities for unsigned 16-bit integers.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/number-uint16-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "base",
+    "namespace",
+    "ns",
+    "uint16",
+    "unsigned",
+    "integer",
+    "int",
+    "16-bit"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
