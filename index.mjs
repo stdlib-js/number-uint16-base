@@ -1,0 +1,4 @@
+// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import t from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-only-property@v0.2.1-esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base-from-binary-string@v0.2.1-esm/index.mjs";export{default as fromBinaryStringUint16}from"https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base-from-binary-string@v0.2.1-esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base-to-binary-string@v0.2.1-esm/index.mjs";export{default as toBinaryStringUint16}from"https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base-to-binary-string@v0.2.1-esm/index.mjs";var r={};t(r,"fromBinaryStringUint16",n),t(r,"toBinaryStringUint16",i);export{r as default};
+//# sourceMappingURL=index.mjs.map
