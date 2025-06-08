@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`9cecbb4`](https://github.com/stdlib-js/stdlib/commit/9cecbb4e75d330f6c95718da41dc9f9764768e53) - add `mul` to namespace
+-   [`09203ae`](https://github.com/stdlib-js/stdlib/commit/09203ae63f56eefad6a0cc85462ba9337d778725) - add `number/uint16/base/mul`
 -   [`9d1b309`](https://github.com/stdlib-js/stdlib/commit/9d1b3090d6e0a5e8efa1aafcad51ed59b836c833) - add `sub` to namespace
 -   [`8df5dbe`](https://github.com/stdlib-js/stdlib/commit/8df5dbedf9d5a1b7ca15bf1194daabc45bb1747e) - add `number/uint16/base/sub`
 -   [`b62127d`](https://github.com/stdlib-js/stdlib/commit/b62127d603a32d61854359d8a641a6f19b73f632) - add `add` to namespace
@@ -25,6 +27,8 @@
 
 <details>
 
+-   [`9cecbb4`](https://github.com/stdlib-js/stdlib/commit/9cecbb4e75d330f6c95718da41dc9f9764768e53) - **feat:** add `mul` to namespace _(by Athan Reines)_
+-   [`09203ae`](https://github.com/stdlib-js/stdlib/commit/09203ae63f56eefad6a0cc85462ba9337d778725) - **feat:** add `number/uint16/base/mul` _(by Athan Reines)_
 -   [`9d1b309`](https://github.com/stdlib-js/stdlib/commit/9d1b3090d6e0a5e8efa1aafcad51ed59b836c833) - **feat:** add `sub` to namespace _(by Athan Reines)_
 -   [`8df5dbe`](https://github.com/stdlib-js/stdlib/commit/8df5dbedf9d5a1b7ca15bf1194daabc45bb1747e) - **feat:** add `number/uint16/base/sub` _(by Athan Reines)_
 -   [`b62127d`](https://github.com/stdlib-js/stdlib/commit/b62127d603a32d61854359d8a641a6f19b73f632) - **feat:** add `add` to namespace _(by Athan Reines)_
