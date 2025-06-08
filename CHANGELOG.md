@@ -4,9 +4,49 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-06-08)
 
-No changes reported for this release.
+<section class="features">
+
+### Features
+
+-   [`9d1b309`](https://github.com/stdlib-js/stdlib/commit/9d1b3090d6e0a5e8efa1aafcad51ed59b836c833) - add `sub` to namespace
+-   [`8df5dbe`](https://github.com/stdlib-js/stdlib/commit/8df5dbedf9d5a1b7ca15bf1194daabc45bb1747e) - add `number/uint16/base/sub`
+-   [`b62127d`](https://github.com/stdlib-js/stdlib/commit/b62127d603a32d61854359d8a641a6f19b73f632) - add `add` to namespace
+-   [`3f1067f`](https://github.com/stdlib-js/stdlib/commit/3f1067f8c0201a6727cdb6b928360f79621a6651) - add `number/uint16/base/add`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`9d1b309`](https://github.com/stdlib-js/stdlib/commit/9d1b3090d6e0a5e8efa1aafcad51ed59b836c833) - **feat:** add `sub` to namespace _(by Athan Reines)_
+-   [`8df5dbe`](https://github.com/stdlib-js/stdlib/commit/8df5dbedf9d5a1b7ca15bf1194daabc45bb1747e) - **feat:** add `number/uint16/base/sub` _(by Athan Reines)_
+-   [`b62127d`](https://github.com/stdlib-js/stdlib/commit/b62127d603a32d61854359d8a641a6f19b73f632) - **feat:** add `add` to namespace _(by Athan Reines)_
+-   [`3f1067f`](https://github.com/stdlib-js/stdlib/commit/3f1067f8c0201a6727cdb6b928360f79621a6651) - **feat:** add `number/uint16/base/add` _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -15,26 +55,6 @@ No changes reported for this release.
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -51,6 +71,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -70,26 +102,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -106,6 +118,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -114,115 +138,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="number-uint16-base-v0.1.0">
-
-#### [@stdlib/number/uint16/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/uint16/base)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-uint16-base-from--v0.1.0">
-
-#### [@stdlib/number/uint16/base/from-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/uint16/base/from-)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="number-uint16-base-to--v0.1.0">
-
-#### [@stdlib/number/uint16/base/to-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/uint16/base/to-)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -235,18 +159,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -261,6 +173,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
