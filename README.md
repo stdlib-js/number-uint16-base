@@ -76,7 +76,10 @@ var o = ns;
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`add( x, y )`][@stdlib/number/uint16/base/add]</span><span class="delimiter">: </span><span class="description">compute the sum of two unsigned 16-bit integers.</span>
 -   <span class="signature">[`fromBinaryStringUint16( bstr )`][@stdlib/number/uint16/base/from-binary-string]</span><span class="delimiter">: </span><span class="description">create an unsigned 16-bit integer from a literal bit representation.</span>
+-   <span class="signature">[`mul( x, y )`][@stdlib/number/uint16/base/mul]</span><span class="delimiter">: </span><span class="description">multiply two unsigned 16-bit integers.</span>
+-   <span class="signature">[`sub( x, y )`][@stdlib/number/uint16/base/sub]</span><span class="delimiter">: </span><span class="description">subtract two unsigned 16-bit integers.</span>
 -   <span class="signature">[`toBinaryStringUint16( x )`][@stdlib/number/uint16/base/to-binary-string]</span><span class="delimiter">: </span><span class="description">return a string giving the literal bit representation of an unsigned 16-bit integer.</span>
 
 </div>
@@ -188,7 +191,13 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
+[@stdlib/number/uint16/base/add]: https://github.com/stdlib-js/number-uint16-base-add
+
 [@stdlib/number/uint16/base/from-binary-string]: https://github.com/stdlib-js/number-uint16-base-from-binary-string
+
+[@stdlib/number/uint16/base/mul]: https://github.com/stdlib-js/number-uint16-base-mul
+
+[@stdlib/number/uint16/base/sub]: https://github.com/stdlib-js/number-uint16-base-sub
 
 [@stdlib/number/uint16/base/to-binary-string]: https://github.com/stdlib-js/number-uint16-base-to-binary-string
 
