@@ -38,6 +38,7 @@
   "dependencies": {
     "@stdlib/number-uint16-base-add": "github:stdlib-js/number-uint16-base-add#main",
     "@stdlib/number-uint16-base-from-binary-string": "^0.2.2",
+    "@stdlib/number-uint16-base-identity": "github:stdlib-js/number-uint16-base-identity#main",
     "@stdlib/number-uint16-base-mul": "github:stdlib-js/number-uint16-base-mul#main",
     "@stdlib/number-uint16-base-sub": "github:stdlib-js/number-uint16-base-sub#main",
     "@stdlib/number-uint16-base-to-binary-string": "^0.2.2",
