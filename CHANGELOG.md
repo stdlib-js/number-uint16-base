@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-01)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
 ### Features
 
+-   [`7e901bd`](https://github.com/stdlib-js/stdlib/commit/7e901bd49e7890bf936456e09265913c13e74ad1) - update `number/uint16/base` TypeScript declarations
 -   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - add missing exports to namespaces
 -   [`d4383ec`](https://github.com/stdlib-js/stdlib/commit/d4383ecb9c3fcf958c794042f2749ed1fbb85b00) - add `number/uint16/base/identity` [(#7846)](https://github.com/stdlib-js/stdlib/pull/7846)
 -   [`9cecbb4`](https://github.com/stdlib-js/stdlib/commit/9cecbb4e75d330f6c95718da41dc9f9764768e53) - add `mul` to namespace
@@ -29,6 +30,8 @@
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`7e901bd`](https://github.com/stdlib-js/stdlib/commit/7e901bd49e7890bf936456e09265913c13e74ad1) - **feat:** update `number/uint16/base` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
