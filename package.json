@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-uint16-base",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Base utilities for unsigned 16-bit integers.",
   "license": "Apache-2.0",
   "author": {
@@ -36,11 +36,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/number-uint16-base-add": "github:stdlib-js/number-uint16-base-add#main",
+    "@stdlib/number-uint16-base-add": "^0.1.0",
     "@stdlib/number-uint16-base-from-binary-string": "^0.2.2",
-    "@stdlib/number-uint16-base-identity": "github:stdlib-js/number-uint16-base-identity#main",
+    "@stdlib/number-uint16-base-identity": "^0.1.0",
     "@stdlib/number-uint16-base-mul": "github:stdlib-js/number-uint16-base-mul#main",
-    "@stdlib/number-uint16-base-sub": "github:stdlib-js/number-uint16-base-sub#main",
+    "@stdlib/number-uint16-base-sub": "^0.1.0",
     "@stdlib/number-uint16-base-to-binary-string": "^0.2.2",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
