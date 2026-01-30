@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-uint16-base/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { add, fromBinaryStringUint16, identity, mul, sub, toBinaryStringUint16 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base@v0.3.0-esm/index.mjs';
+import { add, fromBinaryStringUint16, identity, mul, sub, toBinaryStringUint16 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base@esm/index.mjs';
 ```
 
 #### ns
@@ -94,7 +99,7 @@ var o = ns;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base@v0.3.0-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
