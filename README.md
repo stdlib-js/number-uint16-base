@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base utilities for unsigned 16-bit integers.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/number-uint16-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/number-uint16-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/number-uint16-base' );
 ```
 
 #### ns
@@ -105,21 +99,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint16-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/number-uint16-base' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -160,7 +144,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -173,8 +157,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/number-uint16-base.svg
 [npm-url]: https://npmjs.org/package/@stdlib/number-uint16-base
 
-[test-image]: https://github.com/stdlib-js/number-uint16-base/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/number-uint16-base/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/number-uint16-base/actions/workflows/test.yml/badge.svg?branch=v0.3.0
+[test-url]: https://github.com/stdlib-js/number-uint16-base/actions/workflows/test.yml?query=branch:v0.3.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/number-uint16-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/number-uint16-base?branch=main
@@ -186,8 +170,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -208,17 +192,17 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/number/uint16/base/add]: https://github.com/stdlib-js/number-uint16-base-add/tree/umd
+[@stdlib/number/uint16/base/add]: https://github.com/stdlib-js/number-uint16-base-add
 
-[@stdlib/number/uint16/base/from-binary-string]: https://github.com/stdlib-js/number-uint16-base-from-binary-string/tree/umd
+[@stdlib/number/uint16/base/from-binary-string]: https://github.com/stdlib-js/number-uint16-base-from-binary-string
 
-[@stdlib/number/uint16/base/identity]: https://github.com/stdlib-js/number-uint16-base-identity/tree/umd
+[@stdlib/number/uint16/base/identity]: https://github.com/stdlib-js/number-uint16-base-identity
 
-[@stdlib/number/uint16/base/mul]: https://github.com/stdlib-js/number-uint16-base-mul/tree/umd
+[@stdlib/number/uint16/base/mul]: https://github.com/stdlib-js/number-uint16-base-mul
 
-[@stdlib/number/uint16/base/sub]: https://github.com/stdlib-js/number-uint16-base-sub/tree/umd
+[@stdlib/number/uint16/base/sub]: https://github.com/stdlib-js/number-uint16-base-sub
 
-[@stdlib/number/uint16/base/to-binary-string]: https://github.com/stdlib-js/number-uint16-base-to-binary-string/tree/umd
+[@stdlib/number/uint16/base/to-binary-string]: https://github.com/stdlib-js/number-uint16-base-to-binary-string
 
 <!-- </toc-links> -->
 
